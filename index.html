@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Generator wyrazów</title>
+    
+      <link rel="stylesheet" href="css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<div class="rwd">
+  		<header>Generator wyrazów</header>
+
+<form id="form" class="topBefore">
+		
+		  <input id="slowo" type="text" placeholder="Wpisz słowo lub zdanie">
+		  <input id="powtorzen" type="number" placeholder="wpisz ilość powtórzeń">
+		  <textarea id="wynik" type="text" placeholder="Tutaj pojawią się powtórzone wyrazy, zdania"></textarea>
+          <input id="submit" type="submit" value="Generuj!" onclick="event.preventDefault();wypisz();">
+          <button id="submit" type="submit">Kopiuj</button>
+</form>
+  
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script  src="js/index.js"></script>
+
+</div>
+
+
+</body>
+
+</html>
